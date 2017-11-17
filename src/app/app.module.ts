@@ -19,6 +19,7 @@ import { AuthComponent } from './auth/auth.component';
 import { LoginComponent } from './auth/login/login.component';
 import { RegisterComponent } from './auth/register/register.component';
 import { StatisticsMainComponent } from './statistics-main/statistics-main.component';
+import { NotificationsComponent } from './nav-top/notifications/notifications.component';
 
 
 @NgModule({
@@ -36,7 +37,8 @@ import { StatisticsMainComponent } from './statistics-main/statistics-main.compo
     AuthComponent,
     LoginComponent,
     RegisterComponent,
-    StatisticsMainComponent
+    StatisticsMainComponent,
+    NotificationsComponent
   ],
   imports: [
     BrowserModule,

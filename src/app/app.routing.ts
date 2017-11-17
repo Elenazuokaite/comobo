@@ -8,6 +8,7 @@ import { StatisticsMainComponent } from './statistics-main/statistics-main.compo
 import { AuthComponent } from './auth/auth.component';
 
 
+
 const APP_Routes: Routes = [
   {path: 'dashboard', component: DashboardComponent},
   {path: 'profile', component: UserProfileComponent},
